@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercer Énfasis - Análisis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="enfasis_analisis.css">
+</head>
+<body>
+    <div class="page-background"></div>
+    
+    <header class="header">
+        <div class="header-text">Trabajo de grado</div>
+    </header>
+
+    <nav class="nav-bar">
+        <a href="../../index.html">🏠 Inicio</a>
+        <a href="../lobby.html">↩ Volver</a>
+        <a href="../enfasis_procesamiento/enfasis_procesamiento.html">⬅️ Anterior énfasis</a>
+        <a href="../enfasis_conclusiones/enfasis_conclusiones.html">Siguiente énfasis ➡️</a>
+        <a href="https://docs.google.com/spreadsheets/d/1KPaJCxspWTzdCLBKmS-kBVEGlHSXS71x/edit?gid=2115816323#gid=2115816323" target="_blank" class="spreadsheet-button">📊 Ver Base de Datos</a>
+                <a href="https://colab.research.google.com/drive/1UlphS8nWJBqdwYFKnR7aqNHvjfyqWPdP?usp=sharing" target="_blank" class="spreadsheet-button">🗃️Códigos usados</a>
+    </nav>
+
+    <div class="container">
+        <section class="introduction">
+            <h1>Tercer Énfasis: Punto de choque; cambio de estrategia enfocada en el análisis exploratorio</h1>
+            <p class="emphasis-description">
+En este énfasis, el estudio mantiene su objetivo principal: analizar un fenómeno social a partir de la analítica de datos. 
+Desde el segundo énfasis, se definió la fuente de información, lo que permitió centrar el análisis en el sector seguridad como 
+dimensión clave del desarrollo humano tras explorar la base de datos.
+            </p>
+        </section>
+
+        <section class="workflow-streams">
+            <h2>Flujos de Análisis para entender este tercer énfasis</h2>
+            <div class="streams-container">
+                <div class="stream-card">
+                    <div class="stream-card__front">
+                        <div class="stream-card__icon">📚</div>
+                        <h3>Desarrollo Humano</h3>
+                        <p>Click para ver detalles</p>
+                    </div>
+                    <div class="stream-card__back">
+                        <h3>Desarrollo Humano</h3>
+                        <p>Se decidió profundizar en la comprensión del desarrollo humano, para lo cual se llevó a cabo un exhaustivo ejercicio de estado del arte. Se recopilaron 250 textos como muestra, con el propósito de identificar patrones y relaciones clave.</p>
+                        <p>Para ello, se realizaron tres ejercicios metodológicos:</p>
+                        <p>• Creación de una tabla de contingencia, categorizando los textos según la presencia o ausencia de diversas dimensiones.</p>
+                        <p>• Aplicación de un análisis de clústeres (k-means) para identificar grupos de variables relacionadas y establecer tendencias principales.</p>
+                        <p>• Contraste de los resultados mediante un análisis confirmatorio con dendogramas jerarquizados, comparando la agrupación de variables identificadas.</p>
+                    </div>
+                </div>
+
+                <div class="stream-card">
+                    <div class="stream-card__front">
+                        <div class="stream-card__icon">🔄</div>
+                        <h3>Teoría del Cambio</h3>
+                        <p>Click para ver detalles</p>
+                    </div>
+                    <div class="stream-card__back">
+                        <h3>Teoría del Cambio</h3>
+                        <p>Para ubicar el enfoque del análisis, se optó por estudiar el desarrollo humano desde la teoría del cambio en políticas públicas, considerando esta como estrategia de transformación social.</p>
+                        <p>El objetivo pasó a ser la validación de dicha teoría desde la analítica de datos, empleando variables que inciden directamente en el desarrollo humano.</p>
+                        <p>Se identificó a "Medellín Solidaria" como un referente considerable, ya que integraba el desarrollo humano como estrategia para reducir la pobreza extrema. Por tanto, se utilizó como guía conceptual junto con los hallazgos del estado del arte.</p>
+                    </div>
+                </div>
+
+                <div class="stream-card">
+                    <div class="stream-card__front">
+                        <div class="stream-card__icon">📊</div>
+                        <h3>Gestión de base de datos</h3>
+                        <p>Click para ver detalles</p>
+                    </div>
+                    <div class="stream-card__back">
+                        <h3>Gestión de base de datos</h3>
+                        <p>Se inició la fase de procesamiento y organización de la base de datos, seleccionando las variables principales que componen las dimensiones priorizadas en el desarrollo humano.</p>
+                        <p>Se realizaron las siguientes acciones:</p>
+                        <p>• Eliminación de duplicados</p>
+                        <p>• Imputación de valores nulos y normalización de datos para garantizar la calidad y consistencia de la base</p>
+                        <p>• Consolidación de una matriz que integra variables del problema y del accionar estatal</p>
+                        <p>• Inclusión del marco competencial del distrito para cada dimensión contemplada</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="analysis-phases">
+            <h2>Resultado de flujos integrados</h2>
+            <p class="emphasis-description">
+                El resultado fue una matriz consolidada que integra dos tipos de variables: las que hacen referencia al problema y las que corresponden al accionar estatal. Además, se incluyó el marco competencial del distrito para cada dimensión contemplada. 
+                Este flujo de trabajo permitió identificar la seguridad como una dimensión clave dentro del conjunto de dimensiones que ocupa el desarrollo humano, por ende, se decide centrar el análisis en la exploración de la teoría del cambio de la política 
+                pública de seguridad y convivencia del Distrito de Medellín, específicamente en el sector de seguridad.
+            </p>
+
+            <h2> Momentos clave de los flujos de trabajo integrados</h2>
+
+            <div class="phases-container">
+                <div class="phase">
+                    <div class="phase-number">01</div>
+                    <h3>Primer momento</h3>
+                    <p>Se identificaron las inversiones sectoriales a partir de los instrumentos de planeación (planes de desarrollo, POAI, PISCC, POT). De igual manera se identificaron las 5 principales dimensiones del desarrollo humano
+                      a partir del ejercicio de estado del arte realizado en el segundo énfasis: Educación, Salud, Ingresos, acceso material y Trabajo</p>
+                    </p>
+                </div>
+
+                <div class="phase">
+                    <div class="phase-number">02</div>
+                    <h3>Segundo segundo momento</h3>
+                    <p>Para suplir vacíos de información en la matriz, se buscaron variables relacionadas al accionar estatal dentro de estos instrumentos de planeación.</p>
+                </div>
+
+                <div class="phase">
+                    <div class="phase-number">03</div>
+                    <h3>Tercer momento</h3>
+                    <p>Por razones de alcance, temporalidad, coherencia de datos y viabilidad, el desarrollo humano no podría ser analizado desde todas las dimensiones que abarca de forma aislada. No obstante,
+                      gracias al proceso exhaustivo de selección de la política pública que se analizaría, se identificó que el plan integral de seguridad y convivencia ciudadana de Medellín (2024-2027) abarcaba dentro de su intervención
+                      diferentes dimensiones del desarrollo humano,  por lo que
+                     el análisis se centró a partir de este punto sobre dicho sector: la seguridad, dimensión base para guiar el análisis de datos y la teoría del cambio.</p>
+                </div>
+
+                <div class="phase">
+                    <div class="phase-number">04</div>
+                    <h3>Cuarto momento</h3>
+                    <p>Finalmente, antes de comenzar con el análisis se tomó como referencia para la validación de la teoría del cambio el instrumento anteriormente mencionado, el Plan Integral de Seguridad y Convivencia Ciudadana 
+                      (PISCC) del periodo 2024–2027. Esta política tiene como eje y misión hacer una intervención integral y "ecosistémica" a la seguridad de Medellín basada en el bienestar. Por ende, permite realizar
+                      un análisis de la teoría del cambio desde diferentes dimensiones que impactan la seguridad en relación con las principales dimensiones del desarrollo humano encontradas en el estado del arte.</p>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="methodology-details">
+            <h2>Detalles Metodológicos</h2>
+            <div class="methodology-grid">
+                <div class="methodology-card">
+                    <h3>✅Delimitación del problema de estudio</h3>
+                    <p>tras el recorrido metodológico desarrollado en cada uno de los énfasis, fue posible delimitar con precisión el núcleo del trabajo: el análisis de la expresión de un problema mediante la analítica de datos, lo cual se concreta en el estudio de la teoría del cambio de las políticas públicas a partir del análisis de datos como objeto central de investigación.</p>
+                </div>
+
+                <div class="methodology-card">
+                    <h3>✅Tercera variable: contextual</h3>
+                    <p>Se incorpora como variable contextual el territorio de Medellín, en tanto escenario clave para comprender el comportamiento del fenómeno de  seguridad en el marco de la política pública analizada.</p>
+                </div>
+
+                <div class="methodology-card">
+                    <h3>✂️Punto de quiebre</h3>
+                    <p>Desde este punto, se pueden considerar los anteriores énfasis como un proceso de organización, depuración y procesamiento de los datos para consolidar plenamente el objeto de estudio a analizar.</p>
+                </div>
+
+                <div class="methodology-card">
+                    <h3>🕜Lo que sigue</h3>
+                    <p>El siguiente énfasis se centra en analizar el conjunto de datos estructurado y organizado desde la perspectiva del sector seguridad, validando los supuestos de la teoría del cambio del programa PISCC.</p>
+                </div>
+            </div>
+        </section>
+
+<section>
+  <h2>Validación de la Teoría del Cambio en el PISCC 2024–2027</h2>
+
+  <p>
+    La evolución de la teoría del cambio en Medellín refleja dos momentos estratégicos en la política de seguridad y convivencia: la <strong>Política Pública de 2015</strong> y el <strong>Plan Integral de Seguridad y Convivencia Ciudadana (PISCC) 2024–2027</strong>.
+  </p>
+
+  <p style="margin-top: 2rem;">
+    En 2015, se adopta un <strong>modelo de gestión local con enfoque en desarrollo humano integral</strong>, bajo la premisa de que las causas de los problemas de seguridad son <em>estructurales y multicausales</em>. Por tanto, la respuesta debía ser articulada e integral, fortaleciendo capacidades institucionales, la justicia cercana, la participación ciudadana y el uso de tecnología con enfoques de derechos, género y territorio.
+  </p>
+
+  <p style="margin-top: 2rem;">
+    El <strong>PISCC 2024–2027</strong> introduce una <strong>lógica ecosistémica e interdependiente</strong>, ampliando el enfoque institucional hacia una comprensión territorial y estructural de los ciclos de violencia. Su hipótesis central afirma:
+  </p>
+
+  <blockquote style="margin: 1rem 0; padding: 1rem; background-color: var(--accent-light); color: var(--text-dark); border-left: 5px solid var(--primary-color); font-style: italic;">
+    “Se busca interrumpir el reciclaje criminal, fortalecer el capital social y generar bienestar mediante la transformación de factores estructurales.” — PISCC 2024–2027, pág. 7
+  </blockquote>
+
+  <p style="margin-bottom: 1rem;"><strong>Este giro estratégico se concreta en tres transformaciones clave:</strong></p>
+  <ul style="margin-left: 1.2rem; margin-bottom: 2rem; color: var(--text-light);">
+    <li><strong>Planificación:</strong> de estructuras rígidas a intervención multiescalar y territorializada.</li>
+    <li><strong>Enfoque:</strong> de justicia normativa a disrupción del reciclaje criminal y resiliencia comunitaria.</li>
+    <li><strong>Diagnóstico:</strong> de auditorías estáticas a análisis dinámico con sistemas de información adaptativos.</li>
+  </ul>
+
+  <table style="width: 100%; border-collapse: collapse; background: var(--background-light); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow);margin-bottom: 2rem;">
+    <thead style="background-color: var(--primary-color); color: var(--white);">
+      <tr>
+        <th style="padding: 1rem; text-align: left;">Plazo</th>
+        <th style="padding: 1rem; text-align: left;">Resultado esperado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 1rem;"><strong>1. Diagnóstico estructural</strong></td>
+        <td style="padding: 1rem;">La violencia persiste por condiciones estructurales no transformadas como exclusión y segregación. Se supera la visión meramente reactiva.</td>
+      </tr>
+      <tr style="background-color: var(--white);">
+        <td style="padding: 1rem;"><strong>2. Estrategia de intervención</strong></td>
+        <td style="padding: 1rem;">Articulación entre liderazgo institucional y comunitario para fortalecer capital social. Busca reducir reincidencia, victimización y ciclos de violencia.</td>
+      </tr>
+      <tr>
+        <td style="padding: 1rem;"><strong>3. Resultados esperados</strong></td>
+        <td style="padding: 1rem;">
+          <strong>Corto plazo:</strong> Mayor legitimidad del Estado.<br>
+          <strong>Mediano plazo:</strong> Menor victimización, más oportunidades juveniles.<br>
+          <strong>Largo plazo:</strong> Ruptura de ciclos delictivos, fortalecimiento del capital social y bienestar integral.
+        </td>
+      </tr>
+      <tr style="background-color: var(--white);">
+        <td style="padding: 1rem;"><strong>Enfoque general</strong></td>
+        <td style="padding: 1rem;">Transformación estructural multiescalar para generar ecosistemas de seguridad sostenibles y resilientes.</td>
+      </tr>
+    </tbody>
+  </table>
+ 
+  <h3 style="color: var(--secondary-color); margin-bottom: 1rem; margin-top: 6rem;">Conexión entre la teoría del cambio priorizada y enfoque en desarrollo humano</h3>
+
+  <p class="emphasis-description">
+    Tanto la Política Pública de Seguridad y Convivencia de 2015 como el PISCC 2024–2027 reconocen que el <strong>desarrollo humano integral</strong> depende de <strong>determinantes estructurales</strong> que van más allá de una visión restrictiva de la seguridad.
+  </p>
+
+  <p style="margin-bottom: 2rem;"><strong>Dimensiones estructurales clave en ambas políticas</strong></p>
+
+  <table style="width: 100%; border-collapse: collapse; background: var(--background-light); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow);">
+    <thead style="background-color: var(--primary-color); color: var(--white);">
+      <tr>
+        <th style="padding: 1rem; text-align: left;">Dimensión crítica</th>
+        <th style="padding: 1rem; text-align: left;">Política 2015</th>
+        <th style="padding: 1rem; text-align: left;">PISCC 2024–2027</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 1rem;"><strong>Educación</strong></td>
+        <td style="padding: 1rem;">Parte del modelo de empoderamiento ciudadano.</td>
+        <td style="padding: 1rem;">Intervención sectorial priorizada para jóvenes en riesgo.</td>
+      </tr>
+      <tr style="background-color: var(--white);">
+        <td style="padding: 1rem;"><strong>Empleo</strong></td>
+        <td style="padding: 1rem;">Referenciado en el acceso a oportunidades.</td>
+        <td style="padding: 1rem;">Clave para desactivar ciclos delictivos.</td>
+      </tr>
+      <tr>
+        <td style="padding: 1rem;"><strong>Salud</strong></td>
+        <td style="padding: 1rem;">Asociada al bienestar físico y mental.</td>
+        <td style="padding: 1rem;">Indicador de calidad de vida territorial.</td>
+      </tr>
+      <tr style="background-color: var(--white);">
+        <td style="padding: 1rem;"><strong>Servicios públicos</strong></td>
+        <td style="padding: 1rem;">Incluidos como parte de la infraestructura de convivencia.</td>
+        <td style="padding: 1rem;">Parte de las estrategias territoriales.</td>
+      </tr>
+      <tr>
+        <td style="padding: 1rem;"><strong>Justicia</strong></td>
+        <td style="padding: 1rem;">Modelo de justicia cercana y restaurativa.</td>
+        <td style="padding: 1rem;">Mecanismo de resolución de conflictos y legitimación institucional.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top: 2rem;">
+    Estas dimensiones coinciden con los principales <strong>indicadores compuestos de desarrollo humano</strong> como el IDH, IPM e IMCV, y se alinean con los ejes analíticos de este estudio.
+  </p>
+
+  <p style="margin-top: 2rem;">
+    Además, el <strong>PISCC propone indicadores específicos</strong> que ya están presentes en este trabajo, permitiendo validar empíricamente su lógica:
+  </p>
+
+  <ul style="margin-left: 1.5rem; margin-bottom: 2rem; color: var(--text-light);">
+    <li>Índices de pobreza y empleo en zonas priorizadas.</li>
+    <li>Participación ciudadana en planes locales.</li>
+    <li>Acceso a servicios sociales básicos.</li>
+    <li>Nivel de cohesión y confianza institucional.</li>
+  </ul>
+
+  <p style="margin-bottom: 2rem;">
+    La <strong>teoría del cambio institucional</strong> plantea una secuencia lógica clara: diagnóstico, intervención y resultado. En ambos documentos, el resultado esperado se vincula con la mejora de las condiciones de vida a través del fortalecimiento de capacidades desde un enfoque de desarrollo humano integral.
+  </p>
+
+
+  <h3 style="color: var(--secondary-color);margin-bottom: 0.5rem;">Correspondencia entre enfoques</h3>
+
+  <table style="width: 100%; border-collapse: collapse; background: var(--background-light); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow);">
+    <thead style="background-color: var(--primary-color); color: var(--white);">
+      <tr>
+        <th style="padding: 1rem; text-align: left;">Enfoque del estudio</th>
+        <th style="padding: 1rem; text-align: left;">Documentos institucionales</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 1rem;"><strong>Variables del problema</strong></td>
+        <td style="padding: 1rem;">Delitos, desigualdad, violencia, exclusión.</td>
+      </tr>
+      <tr style="background-color: var(--white);">
+        <td style="padding: 1rem;"><strong>Variables del accionar estatal</strong></td>
+        <td style="padding: 1rem;">Programas sociales, justicia restaurativa, inversión pública.</td>
+      </tr>
+      <tr>
+        <td style="padding: 1rem;"><strong>Variable contextual</strong></td>
+        <td style="padding: 1rem;">Condiciones territoriales, confianza institucional, capital social.</td>
+      </tr>
+    </tbody>
+  </table>
+
+    <p style="margin-top: 2rem; margin-bottom: 1rem;">
+    Este planteamiento conecta directamente con la lógica exploratoria basada en datos propuesta en este estudio. Lo que los documentos institucionales presentan como un “<em>deber ser</em>”, aquí se aborda como una <strong>hipótesis empírica</strong> que puede ser contrastada y desagregada mediante análisis de variables.
+  </p>
+
+</section>
+
+
+
+        <section class="image-carousel">
+            <h2>Visualización del Proceso</h2>
+            <div class="carousel-container">
+                <div class="carousel-card">
+                    <div class="carousel-card__front">
+                        <h3>Tabla de contingencia</h3>
+                        <p>Vista parcial de la tabla de contingencia construida a partir del Estado del arte realizado</p>
+                    </div>
+                    <div class="carousel-card__content">
+                        <img src="../../resources/images/desarrollohumano1.png" alt="Tabla de contingencia">
+                    </div>
+                </div>
+
+                <div class="carousel-card">
+                    <div class="carousel-card__front">
+                        <h3>Parte de la base de datos normalizada</h3>
+                        <p>Se evidencia en las diferentes hojas cómo se distribuyen las variables a través de diferentes tipos de medición (porcentaje, decimal, índice)</p>
+                    </div>
+                    <div class="carousel-card__content">
+                        <img src="../../resources/images/estandarizacion1.png" alt="Base de datos normalizada">
+                    </div>
+                </div>
+
+                <div class="carousel-card">
+                    <div class="carousel-card__front">
+                        <h3>Vista parcial de variables del sector seguridad</h3>
+                        <p>Se puede observar cómo aún hay varios valores nulos, que posteriormente serán imputados a través de código</p>
+                    </div>
+                    <div class="carousel-card__content">
+                        <img src="../../resources/images/vista_parcial.png" alt="Variables sector seguridad">
+                    </div>
+                </div>
+
+                <div class="carousel-card">
+                    <div class="carousel-card__front">
+                        <h3>Recuento estado del arte</h3>
+                        <p>Resultado y distribución de las variables más significantes luego de la aplicación de tabla de contingencia</p>
+                    </div>
+                    <div class="carousel-card__content">
+                        <img src="../../resources/images/estado_arte.png" alt="Recuento estado del arte">
+                    </div>
+                </div>
+
+                <div class="carousel-card">
+                    <div class="carousel-card__front">
+                        <h3>código</h3>
+                        <p>Código de python utilizado para gestionar la estructura de la base de datos, los valores duplicados, los nan y la normalización de los valores para medirlos en una escala similar.</p>
+                    </div>
+
+                       <div class="code-container">
+                          <textarea class="area" id="code" name="code" readonly="">
+ # 1️⃣ Importar librerías básicas
+import pandas as pd
+import numpy as np
+                            
+ # 2️⃣ Montar Google Drive en Colab
+ from google.colab import drive
+ drive.mount('/content/drive')
+                            
+# 3️⃣ Leer el archivo CSV desde la ruta de Google Drive
+file_path = '/content/drive/My Drive/práctica_solo_seguridad.csv'  # Ajusta la ruta si está en otro lugar
+df = pd.read_csv(file_path)
+                            
+ # 4️⃣ Mostrar información básica del dataset
+print(df.info())
+print(df.head())
+                            
+ # 5️⃣ Eliminar duplicados
+df = df.drop_duplicates()
+                            
+# 6️⃣ Imputar valores NaN con un valor específico o la media/mediana de cada columna
+# Opción A: reemplazar por 0
+# df.fillna(0, inplace=True)
+                            
+ # Opción B: reemplazar por la media de cada columna numérica
+df.fillna(df.mean(numeric_only=True), inplace=True)
+                            
+                      }</textarea>
+                        </div>
+
+                  
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <button class="prev-btn">❮</button>
+                <button class="next-btn">❯</button>
+            </div>
+        </section>
+
+        <section class="key-points">
+            <div class="key-points-grid">
+                <div class="key-point">
+            <p class="emphasis-description">Para una descripción más detallada, se recomienda consultar las páginas 59 a 73 de la memoria metodológica.</p>
+            <ul class= "emphasis-description">
+              <li>Análisis de profundización y exploración detallada entorno al desarrollo humano (páginas 59-63) </li>
+              <li>Flujos de trabajo(páginas 63-67)</li>
+              <li>Validación de la Teoría del Cambio en el PISCC 2024–2027(páginas 67-73)</li>
+            </ul>
+              <a href="https://drive.google.com/file/d/1wSvdfORgIifqX8BVCmRf6fSkCUEuZeQZ/view?usp=sharing" target="_blank" class="spreadsheet-button">memoria metodológica</a>
+              </div>  
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="footer-title">Universidad de Antioquia</div>
+        <p>Más información: pablo.restrepo3@udea.edu.co</p>
+
+    </footer>
+
+    <script src="enfasis_analisis.js"></script>
+</body>
+</html>
