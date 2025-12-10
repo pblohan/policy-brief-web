@@ -41,8 +41,8 @@ policy-brief-web/
 │── data/                 ← cleaned datasets
 │── notebooks/            ← Jupyter notebooks (EDA, PCA, clustering)
 │── src/                  ← Python scripts for preprocessing & modeling
-│── web/                  ← HTML/CSS/JS of the policy brief
-│── docs/                 ← additional documentation
+│── web/                  ← Additional information about the web page
+│── docs/                 ←  HTML/CSS/JS of the policy brief
 │── dashboards/           ← Power BI or Tableau exports
 │── README.md             ← project documentation
 │── requirements.txt      ← Python dependencies
