@@ -24,9 +24,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/resources/images/train-6485753_1280.jpg');
+  background: url('../resources/images/train-6485753_1280.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
   filter: brightness(0.3);
   z-index: -1;
 }
