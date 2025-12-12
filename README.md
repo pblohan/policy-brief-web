@@ -46,21 +46,11 @@ This approach encourages us to let the data speak first, allowing empirical beha
 
 To carry out the analysis, I worked with:
 
-Excel for initial structuring
-
-Python for cleaning, transforming, and modeling the data
+Excel for initial structuring, Python for cleaning, transforming, and modeling the data
 
 Analytical methods such as:
 
-Clustering
-
-PCA
-
-Random Forest
-
-Linear sequences / time-based patterns
-
-Heatmaps and correlation matrices
+Clustering, PCA, Random Forest, Linear sequences / time-based patterns, Heatmaps and correlation matrices
 
 Key libraries included pandas, numpy, matplotlib, seaborn, and scikit-learn.
 
