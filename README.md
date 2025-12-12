@@ -63,13 +63,7 @@ The platform is designed to guide you step-by-step through the research process.
 
 The first interface introduces:
 
-The motivation for the project
-
-The theoretical foundation
-
-The problem being analyzed
-
-The role of the agnostic, data-driven lens
+The motivation for the project, The theoretical foundation, The problem being analyzed, The role of the agnostic, data-driven lens
 
 It sets the stage for everything that follows.
 
@@ -93,25 +87,11 @@ The second page organizes the methodological process into four moments—from in
 
 Each page then presents:
 
-A summary of the previous steps
-
-The purpose of the current stage
-
-Explanations of techniques applied
-
-Visualizations, Python code, and interpretations
+A summary of the previous steps, The purpose of the current stage, Explanations of techniques applied, Visualizations, Python code, and interpretations
 
 For example, the analysis page showcases:
 
-Heatmaps
-
-PCA projections
-
-Clustering outcomes
-
-Random Forest variable importance
-
-Time-based behavior of indicators
+Heatmaps, PCA projections, Clustering outcomes, Random Forest variable importance, Time-based behavior of indicators
 
 This allows anyone visiting the page to trace each decision and see how the analysis unfolds.
 
