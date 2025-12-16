@@ -57,7 +57,7 @@ Key libraries included pandas, numpy, matplotlib, seaborn, and scikit-learn.
 This analytical path reflects not only technical work, but also a learning journey—understanding how to translate political questions into data problems and how to interpret computational results through a public policy lens.
 
 **How the Website Works**
-The platform is designed to guide you step-by-step through the research process. You can see all codes of the structure in **docs** above here 
+The platform is designed to guide you step-by-step through the research process. You can see all codes of the structure in **docs** above here, also you can find the codes used for the analysis in the field called **"Analysis"** 
 
 **1. Landing Page**
 
