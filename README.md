@@ -4,7 +4,7 @@
 Hello and welcome to this project.
 This repository holds a piece of work that is especially meaningful to me—not only because it is my undergraduate thesis, but because it represents a deep conviction I have developed throughout my studies: data analytics has enormous potential to enrich political science and the social sciences more broadly.
 
-This project is the result of saying yes to a new methodological path emerging within the discipline. A path that encourages us to explore the massive amount of data available today and use it to better understand complex social phenomena. It is also the result of countless hours of self-learning, experimenting with tools, making mistakes, and discovering new ways to analyze public policy problems through exploration and curiosity.
+This project is the result of saying yes to a new methodological path emerging within the discipline the agnostic approach. A path that encourages us to explore the massive amount of data available today and use it to better understand complex social phenomena. It is also the result of countless hours of self-learning, experimenting with tools, making mistakes, and discovering new ways to analyze public policy problems through exploration and curiosity.
 
 This web interface and analytical process reflect my desire to build a bridge between political theory and computational analysis—between what we assume about public problems and what the data can reveal about them.
 
