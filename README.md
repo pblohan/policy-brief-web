@@ -1,6 +1,8 @@
 **Welcome – A Data-Driven Journey into Public Policy**
 *Exploring how data analytics can transform political science*
 
+Link to the web page: https://recorridoagnosticoprocesodeanalisis.netlify.app/
+
 Hello and welcome to this project.
 This repository holds a piece of work that is especially meaningful to me—not only because it is my undergraduate thesis, but because it represents a deep conviction I have developed throughout my studies: data analytics has enormous potential to enrich political science and the social sciences more broadly.
 
